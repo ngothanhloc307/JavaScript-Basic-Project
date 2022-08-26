@@ -363,6 +363,7 @@ Sidebar
 .sidebar-overlay.show {
   opacity: 1;
   z-index: 100;
+  
 }
 .sidebar {
   width: 90vw;
@@ -374,6 +375,7 @@ Sidebar
   position: relative;
   padding: 4rem;
   transform: scale(0);
+  
 }
 .show .sidebar {
   transform: scale(1);
@@ -670,6 +672,9 @@ Products Page
   color: var(--clr-grey-5);
   cursor: pointer;
   transition: var(--transition);
+}
+.show-borber-button{
+  border-color: black;
 }
 .company-btn:hover {
   color: var(--clr-grey-3);
